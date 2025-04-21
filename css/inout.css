@@ -1,0 +1,53 @@
+.sidebar-btn {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    border: none;
+    background: none;
+    color: #333;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+.sidebar-btn:hover,
+.sidebar-btn.active {
+    background-color: #e9ecef;
+}
+.btn-active{
+    background-color: #e9ecef;
+    /* border: 2px solid black; */
+}
+.btn-disable{
+    background-color: #f8f9fa;
+}
+.searchuser{
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+.userdata{
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+.check{
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding:10px;
+}
+#userdata{
+    display: none;
+}
+.paymentmethod{
+    display: none;
+}
+.paymentstatus{
+    display: none;
+}
+small{
+    color: red;
+
+}

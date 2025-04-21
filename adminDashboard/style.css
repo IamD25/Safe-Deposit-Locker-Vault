@@ -1,0 +1,52 @@
+.sidebar {
+    height: 100vh;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+
+
+.settings-nav {
+    /* margin-bottom: 20px; */
+}
+
+.sidebar-btn {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    border: none;
+    background: none;
+    color: #333;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.sidebar-btn:hover,
+.sidebar-btn.active {
+    background-color: #e9ecef;
+}
+.btn-active{
+    background-color: #e9ecef;
+}
+.btn-disable{
+    background-color: #f8f9fa;
+}
+.content {
+    padding: 20px;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+.overview-box {
+    /* background-color: #f8f9fa; */
+    border-radius: 8px;
+    height: 35vh;
+    border: 1px solid black;
+}
+.bactive{
+    display: block;
+}
+.bdisable{
+    display: none;
+}

@@ -1,0 +1,130 @@
+
+/* .body { */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 80vh;     */
+    /* background-color: #fff; */
+/* } */
+
+.login-container {
+    margin-top: 50px;
+    width: 450px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-control {
+    border-radius: 8px;
+}
+
+.btn-active {
+    background-color: white;
+}
+
+.btn-disable {
+    background-color: gray;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn1 {
+
+    width: 90%;
+    margin: 8px;
+}
+
+.col-6 {
+    padding: 2px;
+}
+
+.btn-group {
+    background-color: #896683;
+    width: 105%;
+}
+/* General styling for the entire form */
+/* form {
+    width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+} */
+
+/* Styling for the Admin/User buttons */
+input[type="radio"] {
+    display: none; 
+    
+    /* Hide the actual radio button */
+}
+
+input[type="radio"] + label {
+    /* display: inline-block; */
+    width: 90%;
+    margin: 8px;
+    padding: 10px 20px;
+    margin: 5px;
+    text-align: center;
+
+    cursor: pointer;
+    /* background-color: #e5e5e5; */
+    border-radius: 5px;
+    /* color: #333; */
+    font-weight: bold;
+    /* border: 2px solid transparent; */
+    transition: all 0.3s ease;
+}
+
+/* Style for selected button */
+input[type="radio"]:checked + label {
+    background-color: white;
+    /* color: #fff; */
+    /* border-color: #333; */
+    
+}
+
+/* Hover effect */
+input[type="radio"] + label:hover {
+    background-color: white;
+
+}
+
+/* Styling for input fields */
+/* input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+} */
+
+/* Styling for the Sign In button */
+/* button[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+} */
+
+/* Hover effect for Sign In button */
+/* button[type="submit"]:hover {
+    background-color: #555;
+} */

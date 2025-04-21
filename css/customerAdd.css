@@ -1,0 +1,12 @@
+.addForm{
+    border: 2px solid black;
+    border-radius: 10px;
+    /* height: 70vh; */
+    width: 70vw;
+    margin-top: 20px;
+}
+.redclass{
+    border-color: red;
+    color: red  ;
+    /* background: red; */
+}

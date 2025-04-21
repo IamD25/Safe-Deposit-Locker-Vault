@@ -1,0 +1,70 @@
+.sidebar {
+    height: 100vh;
+    /* background-color: #f8f9fa; */
+    background-color: #d39abf;
+    padding-top: 20px;
+}
+.navcolor{
+    background-color: #896683;
+    color: white;
+    /* border-radius: 20px; */
+  }
+.sidebar-btn {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    border: none;
+    background: none;
+    color: #333;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.sidebar-btn:hover,
+.sidebar-btn.active {
+    background-color: #e9ecef;
+}
+.btn-active{
+    background-color: #e9ecef;
+}
+.btn-disable{
+    background-color: #f8f9fa;
+}
+.content {
+    padding: 20px;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+.overview-box {
+    /* background-color: #f8f9fa; */
+    border-radius: 8px;
+    height: 35vh;
+    border: 1px solid black;
+}
+.bactive{
+    display: block;
+}
+.bdisable{
+    display: none;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.summary-card {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.recent-activities ul {
+    list-style-type: none;
+    padding: 0;
+}
+.recent-activities ul li {
+    margin-bottom: 10px;
+}
+.lockers-table td, .lockers-table th {
+    padding: 10px;
+}

@@ -1,0 +1,24 @@
+.assign{
+    height: 70vh;
+    width: 70vw;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.rent{
+    margin-left: 120px;
+}
+.entry{
+    margin-left: 120px;
+}
+#assign{
+    font-weight: 700;
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+}
+input[type="number"] {
+    -moz-appearance: textfield !important;
+}
